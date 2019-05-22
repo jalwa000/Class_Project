@@ -1,0 +1,78 @@
+body {
+    position: relative;
+    background-color: #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    }
+  
+    
+  
+  .isomerTop {
+    position:absolute;
+    font-family: Fredericka the Great;
+    width:196px;
+    height:200px;
+    border:3px solid black;
+    border-right:4px solid black;
+    transform: scaleY(0.57) rotate(45deg);
+    top:42.5px;
+    left:211px;
+}
+
+
+
+  
+
+  .isomer {
+    background:silver;
+    height:63px;
+    width:61px;
+    border:black 2px solid;
+    float:left;
+  }
+  
+
+.isomerLeft {
+    position:absolute;
+    width:162px;
+    height:162px;
+    border:2px solid black;
+    transform: rotate(30deg) skew(30deg);
+    color: yellow;
+    top: 200px;
+    left:157px;
+   
+  }
+  .isomer1 {
+    background:red;
+    height:50px;
+    width:50px;
+    border:black 2px solid;
+    float:left;
+  }
+  .isomerright {
+    width:162px;
+    height:162px;
+    border:2px solid black;
+    transform: rotate(-30deg) skew(-30deg);
+    position:absolute;
+    top: 200px;
+    left:300px;
+    
+  }
+  .isomer2 {
+    background: gold;
+    height:50px;
+    width:50px;
+    border:black 2px solid;
+    float:left;
+  }
+  
+    .urdu {
+      color: red;
+      font-family: 'NafeesRegular';
+      font-size: 75px;
+   } 
+  
